@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{442A25D5-471E-4664-8EFB-01B07D38B25A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>YFK</RootNamespace>
+    <AssemblyName>YFK</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="halcondotnet, Version=17.12.0.0, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\MVTec\HALCON-17.12-Progress\bin\dotnet20\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="hdevenginedotnet, Version=17.12.0.0, Culture=neutral, PublicKeyToken=4973bed59ddbf2b8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\MVTec\HALCON-17.12-Progress\bin\dotnet20\hdevenginedotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Axislimit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Axislimit.Designer.cs">
+      <DependentUpon>Axislimit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackHome.Designer.cs">
+      <DependentUpon>BackHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CCD.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gts.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settingdefine.cs" />
+    <EmbeddedResource Include="Axislimit.resx">
+      <DependentUpon>Axislimit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackHome.resx">
+      <DependentUpon>BackHome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpgradeReport_Warning.png" />
+    <None Include="Resources\UpgradeReport_Success.png" />
+    <None Include="Resources\UpgradeReport_Information.png" />
+    <None Include="Resources\UpgradeReport_Error.png" />
+    <None Include="Resources\Setting.png" />
+    <None Include="Resources\settemplate.png" />
+    <None Include="Resources\permissions.png" />
+    <None Include="Resources\Normal.png" />
+    <None Include="Resources\NetByte Design Studio - 0715.png" />
+    <None Include="Resources\NetByte Design Studio - 0575.png" />
+    <None Include="Resources\NetByte Design Studio - 0541.png" />
+    <None Include="Resources\NetByte Design Studio - 0508.png" />
+    <None Include="Resources\NetByte Design Studio - 0507.png" />
+    <None Include="Resources\NetByte Design Studio - 0499.png" />
+    <None Include="Resources\NetByte Design Studio - 0352.png" />
+    <None Include="Resources\NetByte Design Studio - 0342.png" />
+    <None Include="Resources\NetByte Design Studio - 0171.png" />
+    <None Include="Resources\NetByte Design Studio - 0001.png" />
+    <None Include="Resources\Narrow.png" />
+    <None Include="Resources\mspaint.png" />
+    <None Include="Resources\inter.png" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\computer.png" />
+    <None Include="Resources\calc.png" />
+    <None Include="Resources\amplification.png" />
+    <None Include="Resources\admin.png" />
+    <Content Include="resourse\admin.png" />
+    <Content Include="resourse\amplification.png" />
+    <Content Include="resourse\calc.png" />
+    <Content Include="resourse\computer.png" />
+    <Content Include="resourse\help.png" />
+    <Content Include="resourse\image.png" />
+    <Content Include="resourse\inter.png" />
+    <Content Include="resourse\mspaint.png" />
+    <Content Include="resourse\Narrow.png" />
+    <Content Include="resourse\NetByte Design Studio - 0001.png" />
+    <Content Include="resourse\NetByte Design Studio - 0171.png" />
+    <Content Include="resourse\NetByte Design Studio - 0342.png" />
+    <Content Include="resourse\NetByte Design Studio - 0352.png" />
+    <Content Include="resourse\NetByte Design Studio - 0499.png" />
+    <Content Include="resourse\NetByte Design Studio - 0507.png" />
+    <Content Include="resourse\NetByte Design Studio - 0508.png" />
+    <Content Include="resourse\NetByte Design Studio - 0541.png" />
+    <Content Include="resourse\NetByte Design Studio - 0575.png" />
+    <Content Include="resourse\NetByte Design Studio - 0715.png" />
+    <Content Include="resourse\Normal.png" />
+    <Content Include="resourse\permissions.png" />
+    <Content Include="resourse\settemplate.png" />
+    <Content Include="resourse\Setting.png" />
+    <Content Include="resourse\UpgradeReport_Error.png" />
+    <Content Include="resourse\UpgradeReport_Information.png" />
+    <Content Include="resourse\UpgradeReport_Success.png" />
+    <Content Include="resourse\UpgradeReport_Warning.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
