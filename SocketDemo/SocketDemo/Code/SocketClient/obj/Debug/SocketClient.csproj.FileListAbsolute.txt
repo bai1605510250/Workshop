@@ -1,0 +1,8 @@
+D:\Test\Client\SocketClient\bin\Debug\SocketClient.exe.config
+D:\Test\Client\SocketClient\bin\Debug\SocketClient.exe
+D:\Test\Client\SocketClient\bin\Debug\SocketClient.pdb
+D:\Test\Client\SocketClient\obj\Debug\SocketClient.Properties.Resources.resources
+D:\Test\Client\SocketClient\obj\Debug\SocketClient.SocketClient.resources
+D:\Test\Client\SocketClient\obj\Debug\SocketClient.csproj.GenerateResource.Cache
+D:\Test\Client\SocketClient\obj\Debug\SocketClient.exe
+D:\Test\Client\SocketClient\obj\Debug\SocketClient.pdb

@@ -1,0 +1,37 @@
+D:\Test\Server\SocketServer\SocketServer\bin\Debug\SocketServer.exe.config
+D:\Test\Server\SocketServer\SocketServer\bin\Debug\SocketServer.exe
+D:\Test\Server\SocketServer\SocketServer\bin\Debug\SocketServer.pdb
+D:\Test\Server\SocketServer\SocketServer\obj\Debug\SocketServer.ServerForm.resources
+D:\Test\Server\SocketServer\SocketServer\obj\Debug\SocketServer.Properties.Resources.resources
+D:\Test\Server\SocketServer\SocketServer\obj\Debug\SocketServer.csproj.GenerateResource.Cache
+D:\Test\Server\SocketServer\SocketServer\obj\Debug\SocketServer.exe
+D:\Test\Server\SocketServer\SocketServer\obj\Debug\SocketServer.pdb
+D:\Test\SourceCode\SocketServer\bin\Debug\SocketServer.exe.config
+D:\Test\SourceCode\SocketServer\obj\Debug\SocketServer.exe
+D:\Test\SourceCode\SocketServer\obj\Debug\SocketServer.pdb
+D:\20141118\Socket Demo\Socket Demo\SourceCode\SocketServer\bin\Debug\SocketServer.exe.config
+D:\20141118\Socket Demo\Socket Demo\SourceCode\SocketServer\obj\Debug\SocketServer.exe
+D:\20141118\Socket Demo\Socket Demo\SourceCode\SocketServer\obj\Debug\SocketServer.pdb
+D:\20141120\Socket Demo\Socket Demo\SourceCode\SocketServer\bin\Debug\SocketServer.exe.config
+D:\20141120\Socket Demo\Socket Demo\SourceCode\SocketServer\obj\Debug\SocketServer.exe
+D:\20141120\Socket Demo\Socket Demo\SourceCode\SocketServer\obj\Debug\SocketServer.pdb
+D:\20141219\SocketDemo\SourceCode\SocketServer\bin\Debug\SocketServer.exe.config
+D:\20141219\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.exe
+D:\20141219\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.pdb
+D:\20141219\SocketDemo\SourceCode\SocketServer\bin\Debug\SocketServer.exe
+D:\20141219\SocketDemo\SourceCode\SocketServer\bin\Debug\SocketServer.pdb
+D:\20141219\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache
+D:\20141219\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.ServerForm.resources
+D:\20141219\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.Properties.Resources.resources
+D:\20141219\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.csproj.GenerateResource.Cache
+G:\Herocan\20141221\SocketDemo\SourceCode\SocketServer\bin\Debug\SocketServer.exe.config
+G:\Herocan\20141221\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.exe
+G:\Herocan\20141221\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.pdb
+D:\20141222\SocketDemo\SourceCode\SocketServer\bin\Debug\SocketServer.exe.config
+D:\20141222\SocketDemo\SourceCode\SocketServer\bin\Debug\SocketServer.exe
+D:\20141222\SocketDemo\SourceCode\SocketServer\bin\Debug\SocketServer.pdb
+D:\20141222\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.ServerForm.resources
+D:\20141222\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.Properties.Resources.resources
+D:\20141222\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.csproj.GenerateResource.Cache
+D:\20141222\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.exe
+D:\20141222\SocketDemo\SourceCode\SocketServer\obj\Debug\SocketServer.pdb
